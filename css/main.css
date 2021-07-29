@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 60px;
 }
 
 .logo {
@@ -58,7 +59,8 @@ body {
 }
 
 .element {
-    font-size: 39px;
+    font-size: 28px;
+    margin-top: 52px;
 }
 
 .block__list {
@@ -102,19 +104,22 @@ body {
 .third {
     border: solid 1px #d6d6d6;
     border-radius: 5px;
-    box-shadow: 0 0 29px 0;
+    box-shadow: 0 0 29px 0 rgba(14, 14, 14, 0.4);
 }
 
 .element_second {
     font-size: 25px;
+    margin-top: 54px;
 }
 
 .input {
     padding: 17px 152px 15px 23px;
-    height: 15px;
+    height: 46px;
     display: block;
     margin-bottom: 10px;
     background-color: #ffffff;
+    width: 239px;
+    border: solid 1px #d6d6d6;
 }
 
 .input::placeholder {
@@ -125,6 +130,7 @@ body {
     padding: 17px 23px;
     width: 100%;
     height: 124px;
+    border: solid 1px #d6d6d6;
 }
 
 .act {
@@ -134,12 +140,15 @@ body {
     display: block;
     font-weight: bold;
     font-size: 15px;
+    border: 0;
 }
 
 .text__first {
-    font-size: 13px;
     margin-bottom: 41px;
     color: rgba(39, 44, 47, 0.54);
+    font-size: 12px;
+    text-align: left;
+    color: #84898d;
 }
 
 #description .block__list__second {
@@ -148,9 +157,9 @@ body {
     border: solid 1px;
     border-radius: 10px;
     background-color: #184c6b;
-    margin-bottom: 90px;
+    margin-bottom: 115px;
     margin-left: 59px;
-    padding: 43px 44px 48px 39px;
+    padding: 20px 44px 48px 39px;
     width: 771px;
 }
 
@@ -172,11 +181,13 @@ body {
     text-align: left;
     color: #c0ddee;
     width: 317px;
+    letter-spacing: 0.3px;
 }
 
 #description .wrapper {
     display: flex;
     justify-content: space-between;
+    height: 410px;
 }
 
 #description form {
@@ -204,12 +215,12 @@ footer {
     padding: 15px;
     align-items: center;
     white-space: nowrap;
+    margin-top: 35px;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    height: 71px;
     color: #ffffff;
     font-size: 13px;
     line-height: 1.69;
@@ -228,7 +239,7 @@ footer {
 }
 
 .end_second {
-    border-radius: 18.5px;
+    border-radius: 25px;
     border: solid 1px #ffffff;
     padding: 14px 19px 12px;
 }
