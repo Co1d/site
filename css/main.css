@@ -17,8 +17,8 @@ body {
 #header {
     background-color: #22a2ec;
     display: flex;
-    padding: 15px;
     align-items: center;
+    padding: 15px;
     color: #ffffff;
 }
 
@@ -32,13 +32,13 @@ body {
 .logo {
     font-size: 18px;
     font-weight: bold;
+    margin-right: 123px;
 }
 
 .main-menu {
     display: flex;
     list-style: none;
-    margin: 35px;
-    margin-left: 44px;
+    padding: 0 355px 0 0;
 }
 
 .menu-item {
@@ -58,7 +58,7 @@ body {
     margin-right: 8px;
 }
 
-.element {
+.first__title {
     font-size: 28px;
     margin-top: 52px;
 }
@@ -83,6 +83,7 @@ body {
 .block__text {
     padding-top: 15px;
     padding-bottom: 10px;
+    line-height: 1.47;
 }
 
 .first {
@@ -113,7 +114,7 @@ body {
 }
 
 .input {
-    padding: 17px 152px 15px 23px;
+    padding: 17px 23px 15px 23px;
     height: 46px;
     display: block;
     margin-bottom: 10px;
@@ -154,7 +155,6 @@ body {
 #description .block__list__second {
     display: flex;
     flex-direction: row;
-    border: solid 1px;
     border-radius: 10px;
     background-color: #184c6b;
     margin-bottom: 115px;
@@ -171,8 +171,13 @@ body {
 
 .block__title__third {
     margin-bottom: 15px;
-    font-size: 25px;
     white-space: nowrap;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.05;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #c0ddee;
 }
 
 .block__text__first {
@@ -199,7 +204,7 @@ body {
     display: block;
 }
 
-.img__first {
+.img__wrapper {
     margin-top: 35px;
 }
 

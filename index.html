@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>Моя первая вёрстка</title>
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Моя первая вёрстка</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-	<section id="header" class="clearfix">
+	<section class="clearfix" id="header">
 		<div class="container">
 			<div class="header__inner-wrapper">
 				<div class="logo">
@@ -44,7 +44,7 @@
 	</section>
 	<section id="first">
 		<div class="container">
-			<h1 class="element">
+			<h1 class="first__title">
 				Главный заголовок страницы
 			</h1>
 			<div class="block__list">
@@ -104,11 +104,11 @@
 			</h2>
 			<div class="wrapper">
 				<form action="#" method="post">
-					<input type="text" placeholder="Имя" class="input" required>
-					<input type="email" placeholder="E-mail" class="input" required>
-					<input type="tel" placeholder="Телефон" class="input" required>
-					<textarea id="area" placeholder="Сообщение" class="area" required></textarea>
-					<button type="submit" class="act">
+					<input class="input" placeholder="Имя" required type="text">
+					<input class="input" placeholder="E-mail" required type="email">
+					<input class="input" placeholder="Телефон" required type="tel">
+					<textarea class="area" id="area" placeholder="Сообщение" required></textarea>
+					<button class="act" type="submit">
 						Отправить
 					</button>
 					<p class="text__first">
@@ -116,28 +116,28 @@
 					</p>
 				</form>
 				<div class="block__list__second">
-				<div class="block__item__first">
-					<div class="block__title__third">
-						Заголовок карточки
+					<div class="block__item__first">
+						<div class="block__title__third">
+							Заголовок карточки
+						</div>
+						<div class="block__text__first">
+							Lorem ipsum dolor sit amet, consectetur
+							adipisicing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. Duis aute irure dolor
+							in reprehenderit in volupate velit esse cillum
+							dolore eu fugiat nulla pariatur. Excepteur
+						</div>
 					</div>
-					<div class="block__text__first">
-						Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat. Duis aute irure dolor
-						in reprehenderit in volupate velit esse cillum
-						dolore eu fugiat nulla pariatur. Excepteur
-					</div>
-				</div>
-					<div class="img__first clearfix">
-						<img src="img/image.png" alt="img" class="img">
+					<div class="img__wrapper ">
+						<img alt="img" class="img" src="img/image.png">
 						<p class="text__second">
 							Laboris nisi ut aliquip ex ea commodo
 						</p>
 					</div>
-			</div>
+				</div>
 			</div>
 		</div>
 	</section>
